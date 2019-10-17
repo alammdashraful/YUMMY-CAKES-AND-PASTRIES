@@ -1,0 +1,13 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.main-nav {
+ background-color: cadetblue;
+ width: 100vw;
+ display: flex;
+ list-style: none;
+ text-decoration: none;
+}

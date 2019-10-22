@@ -1,13 +1,54 @@
-* {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+body {
+ background: url("https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?cs=srgb&dl=bake-baked-bakery-1028714.jpg&fm=jpg");
+ margin-top: 20px;
+ background-size: cover;
+ font-family: Calibri;
+ font-weight: bold;
 }
 
-.main-nav {
- background-color: cadetblue;
- width: 100vw;
- display: flex;
- list-style: none;
- text-decoration: none;
+.Nav {
+ margin: 0 auto;
+ width: 1080px;
 }
+
+.Nav ul {
+ padding: 0px;
+}
+
+.Nav ul li {
+ float: left;
+ -webkit-transition: all 0.2s;
+ position: relative;
+ list-style: none;
+ z-index: 10;
+}
+
+.Nav ul li a {
+ text-decoration: none;
+ color: white;
+ padding: 2px;
+ font-family: calibri;
+ display: block;
+ width: 200px;
+ text-align: center;
+}
+
+.Nav ul li ul {
+ position: absolute;
+ visibility: hidden;
+}
+
+.Nav ul li:hover ul {
+ visibility: visible;
+}
+
+.Nav ul li a: hover {
+ color: blue;
+}
+
+.Nav ul li:hover {
+ background: red;
+ -webkit-transform: scale(1.1);
+}
+
+.main-content-header {

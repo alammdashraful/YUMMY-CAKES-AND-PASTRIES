@@ -4,6 +4,7 @@ body {
  background-size: cover;
  font-family: Calibri;
  font-weight: bold;
+ color:white;
 }
 
 .Nav {
@@ -50,5 +51,17 @@ body {
  background: red;
  -webkit-transform: scale(1.1);
 }
+.row{
+ position:absolute;
+ left: 5%;
+ top:15%;
+ color:snow;
+}
+.main-content-header{
+width: 1180px; 
+position:absolute;
+top:30%;
+left:5%;
 
-.main-content-header {
+}
+

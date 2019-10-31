@@ -1,67 +1,87 @@
 body {
- background: url("https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?cs=srgb&dl=bake-baked-bakery-1028714.jpg&fm=jpg");
- margin-top: 20px;
- background-size: cover;
- font-family: Calibri;
- font-weight: bold;
- color:white;
-}
-
-.Nav {
- margin: 0 auto;
- width: 1080px;
-}
-
-.Nav ul {
+ margin: 0px;
  padding: 0px;
 }
 
-.Nav ul li {
- float: left;
- -webkit-transition: all 0.2s;
- position: relative;
- list-style: none;
- z-index: 10;
+.navbar-nav {
+ margin-left: 60%;
+
 }
 
-.Nav ul li a {
- text-decoration: none;
+.navbar {
+ /* background: linear-gradient(60deg, #6b5555, #362020); */
+ background-color: grey !important;
+}
+
+.nav-link {
+ color: white !important;
+}
+
+.navbar-brand {
+ color: white !important;
+}
+
+.navbar-brand {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: 900;
+}
+
+.intro {
+ background: url("./images/headerimage.jpeg");
+ background-size: cover;
+}
+
+.intro>h1 {
+ position: absolute;
+ bottom: 500px;
+ left: 200px;
  color: white;
- padding: 2px;
- font-family: calibri;
- display: block;
- width: 200px;
+ z-index: 1;
  text-align: center;
 }
 
-.Nav ul li ul {
- position: absolute;
- visibility: hidden;
+.productDetails {
+ margin: 5% 14%;
 }
 
-.Nav ul li:hover ul {
- visibility: visible;
+.productDetails>h1 {
+ text-align: center;
+ margin-bottom: 80px;
+ font-weight: 900;
 }
 
-.Nav ul li a: hover {
- color: blue;
+.card {
+ width: 25rem;
+ border-radius: 20px;
 }
 
-.Nav ul li:hover {
- background: red;
- -webkit-transform: scale(1.1);
-}
-.row{
- position:absolute;
- left: 5%;
- top:15%;
- color:snow;
-}
-.main-content-header{
-width: 1180px; 
-position:absolute;
-top:30%;
-left:5%;
-
+.row {
+ margin-top: 20px;
 }
 
+.price {
+ float: right;
+ font-weight: bolder;
+}
+
+.reviews {
+ margin-top: 200px;
+ background: linear-gradient(60deg, #6b5555, #362020);
+ min-height: 300px;
+}
+
+.reviews>h1 {
+ text-align: center;
+ color: white;
+ font-weight: bolder;
+ padding-top: 50px;
+}
+
+.reviewItem {
+ margin: 3% 30% 0% 30%;
+}
+
+.carousel-item>p {
+ color: white;
+ font-weight: bolder;
+}

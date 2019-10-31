@@ -16,11 +16,11 @@
     * **MONGODB**
 
 ## Features
-**1. variety of different types of yoghurt.**
-**2. User can see the ingredients of purchasing cakes.**
-**3. User can create their account.**
-**4. User can keep track about his purchasing records.**
-**5. Details for home delivery.**
+**1. variety of different types of yoghurt.**        
+**2. User can see the ingredients of purchasing cakes.**       
+**3. User can create their account.**        
+**4. User can keep track about his purchasing records.**       
+**5. Details for home delivery.**         
 
 
 ## Plan for project

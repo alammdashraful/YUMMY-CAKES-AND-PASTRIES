@@ -1,87 +1,71 @@
-body {
- margin: 0px;
- padding: 0px;
+body{
+    margin: 0px;
+    padding: 0px;
 }
-
-.navbar-nav {
- margin-left: 60%;
-
+.navbar-nav{
+    margin-left: 60%;
+    
 }
-
-.navbar {
- /* background: linear-gradient(60deg, #6b5555, #362020); */
- background-color: grey !important;
+.navbar{
+    /* background: linear-gradient(60deg, #6b5555, #362020); */
+    background-color: red !important;
 }
-
-.nav-link {
- color: white !important;
+.nav-link{
+    color: white !important;
 }
-
-.navbar-brand {
- color: white !important;
+.navbar-brand{
+    color: white !important;
 }
-
-.navbar-brand {
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- font-weight: 900;
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
 }
-
-.intro {
- background: url("./images/headerimage.jpeg");
- background-size: cover;
+.intro{
+    background: url("./images/headerimage.jpeg");
+    background-size: cover;
 }
-
-.intro>h1 {
- position: absolute;
- bottom: 500px;
- left: 200px;
- color: white;
- z-index: 1;
- text-align: center;
+.intro>h1{
+    position: absolute;
+    bottom: 500px;
+    left: 200px;
+    color: white;
+    z-index: 1;
+    text-align: center;
 }
-
-.productDetails {
- margin: 5% 14%;
+.productDetails{
+    margin: 5% 14%;
 }
-
-.productDetails>h1 {
- text-align: center;
- margin-bottom: 80px;
- font-weight: 900;
+.productDetails>h1{
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 900;
 }
-
-.card {
- width: 25rem;
- border-radius: 20px;
+.card{
+    width: 25rem;
+    border-radius: 20px;
 }
-
-.row {
- margin-top: 20px;
+.row{
+    margin-top: 20px;
 }
-
-.price {
- float: right;
- font-weight: bolder;
+.price{
+    float: right;
+    font-weight: bolder;
 }
-
 .reviews {
- margin-top: 200px;
- background: linear-gradient(60deg, #6b5555, #362020);
- min-height: 300px;
+    margin-top: 200px;
+    background: linear-gradient(60deg, #6b5555, #362020);
+    min-height: 300px;
 }
-
-.reviews>h1 {
- text-align: center;
- color: white;
- font-weight: bolder;
- padding-top: 50px;
+.reviews>h1{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-top: 50px;
 }
-
-.reviewItem {
- margin: 3% 30% 0% 30%;
+.reviewItem{
+    margin: 3% 30% 0% 30%;
 }
-
 .carousel-item>p {
- color: white;
- font-weight: bolder;
+    color:white;
+    font-weight: bolder;
 }

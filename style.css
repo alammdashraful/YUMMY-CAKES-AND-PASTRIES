@@ -34,7 +34,7 @@ body{
 }
 .intro>h3{
     position: absolute;
-    bottom: 500px;
+    bottom: 600px;
     left: 200px;
     color: white;
     z-index: 1;

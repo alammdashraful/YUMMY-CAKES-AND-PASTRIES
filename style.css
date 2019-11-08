@@ -3,15 +3,18 @@ body{
     padding: 0px;
 }
 .navbar-nav{
-    margin-left: 60%;
+    margin-left: 64%;
     
 }
 .navbar{
     /* background: linear-gradient(60deg, #6b5555, #362020); */
-    background-color: red !important;
+    background-color: #491717 !important;
 }
 .nav-link{
     color: white !important;
+}
+.nav-item{
+    padding-left: 10px;
 }
 .navbar-brand{
     color: white !important;
@@ -27,21 +30,30 @@ body{
 .intro>h1{
     position: absolute;
     bottom: 500px;
-    left: 200px;
+    left: 100px;
     color: white;
     z-index: 1;
-    text-align: center;
+    text-align: left;
 }
-.intro>h3{
+.products{
+    text-align: center;
+    padding: 5% 20% ;
+}
+.intro>h4{
     position: absolute;
-    bottom: 600px;
-    left: 200px;
+    bottom: 400px;
+    left: 100px;
     color: white;
     z-index: 1;
-    text-align: center;
+    text-align: left;
 }
+/*-------------------- cakes page ---------------------- */
 .productDetails{
-    margin: 5% 14%;
+    padding: 5% 14%;
+}
+.cakesDetails{
+    padding: 5% 14%;
+    background: #582727;
 }
 .productDetails>h1{
     text-align: center;
@@ -51,29 +63,56 @@ body{
 .card{
     width: 25rem;
     border-radius: 20px;
+    box-shadow: 17px 18px 4px 0px #000000;
+}
+
+.card-img-top{
+    background-size: cover !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 245px;
+    width: 399px;
 }
 .row{
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .price{
     float: right;
     font-weight: bolder;
 }
 .reviews {
-    margin-top: 200px;
-    background: linear-gradient(60deg, #6b5555, #362020);
-    min-height: 300px;
+    margin-top: 0px;
+    background: #491717;
+    min-height: auto;
 }
 .reviews>h1{
     text-align: center;
     color: white;
     font-weight: bolder;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 .reviewItem{
     margin: 3% 30% 0% 30%;
 }
 .carousel-item>p {
     color:white;
+    font-weight: bolder;
+}
+/*------------------ footer ------------------------*/
+
+.footer{
+    color: white;
+    margin-top: 20px;
+}
+.logo{
+    padding-left: 45vw;
+    font-size: 25px;
+}
+.logo>i{
+    padding: 10px 10px;
+}
+.copyright{
+    padding-left: 35vw;
     font-weight: bolder;
 }

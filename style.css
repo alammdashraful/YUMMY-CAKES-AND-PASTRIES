@@ -104,6 +104,7 @@ body{
 .footer{
     color: white;
     margin-top: 20px;
+    background-size: cover;
 }
 .logo{
     padding-left: 45vw;

@@ -1,13 +1,13 @@
 body{
     margin: 0px;
     padding: 0px;
+    background: #491717;
 }
 .navbar-nav{
     margin-left: 64%;
     
 }
 .navbar{
-    /* background: linear-gradient(60deg, #6b5555, #362020); */
     background-color: #491717 !important;
 }
 .nav-link{
@@ -47,18 +47,28 @@ body{
     z-index: 1;
     text-align: left;
 }
+/*--------------------- promotions ----------------------*/
+
+.cakesDetails>.card-body>.price{
+    text-decoration: line-through;
+}
+
 /*-------------------- cakes page ---------------------- */
 .productDetails{
     padding: 5% 14%;
 }
 .cakesDetails{
     padding: 5% 14%;
-    background: #582727;
+    /* background: #582727; */
 }
 .productDetails>h1{
     text-align: center;
     margin-bottom: 80px;
     font-weight: 900;
+    color: white;
+}
+.products{
+    color: white;
 }
 .card{
     width: 25rem;
@@ -77,13 +87,22 @@ body{
     margin-top: 10px;
     margin-bottom: 30px;
 }
-.price{
+.discount{
+    float: right;
+    font-weight: bolder;
+    padding-left: 276px;
+    padding-right: 0px;
+}
+.old{
+    text-decoration: line-through;
+}
+.price {
     float: right;
     font-weight: bolder;
 }
 .reviews {
     margin-top: 0px;
-    background: #491717;
+    /* background: #491717; */
     min-height: auto;
 }
 .reviews>h1{
@@ -99,12 +118,19 @@ body{
     color:white;
     font-weight: bolder;
 }
+.testimonial{
+    padding: 7% 14% 3% 14%;
+    color: white;
+    background: #491717;
+}
 /*------------------ footer ------------------------*/
 
 .footer{
     color: white;
-    margin-top: 20px;
+    padding-top: 60px;
     background-size: cover;
+    background-color: #491717;
+    padding-bottom: 20px;
 }
 .logo{
     padding-left: 45vw;

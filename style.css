@@ -143,3 +143,23 @@ body{
     padding-left: 35vw;
     font-weight: bolder;
 }
+/*======== responsive--------------- */
+
+@media only screen and (min-width: 1024px){
+    .navbar-nav{
+        margin-left: 50%;
+    }
+    .card {
+        width: 311px !important;
+    }
+    .card-img-top {
+        width: 309px;
+        height: 322px;
+    }
+    .btn1{
+        margin: 5% 42% !important;
+    }
+    .discount {
+        padding-left: 163px;
+    }
+}

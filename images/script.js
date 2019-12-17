@@ -1,4 +1,4 @@
-/*jslint plusplus: true */
+Node/*jslint plusplus: true */
 /*global $, jQuery, console, alert, prompt */
 
 $('.carousel').carousel();
